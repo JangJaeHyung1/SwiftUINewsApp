@@ -15,8 +15,6 @@
 		E90043432728209F003AD6A7 /* SwiftUINewsAPPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90043422728209F003AD6A7 /* SwiftUINewsAPPUITests.swift */; };
 		E90043452728209F003AD6A7 /* SwiftUINewsAPPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90043442728209F003AD6A7 /* SwiftUINewsAPPUITestsLaunchTests.swift */; };
 		E900435527283266003AD6A7 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E900435427283266003AD6A7 /* Pacifico-Regular.ttf */; };
-		E900435627283266003AD6A7 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E900435427283266003AD6A7 /* Pacifico-Regular.ttf */; };
-		E900435727283266003AD6A7 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E900435427283266003AD6A7 /* Pacifico-Regular.ttf */; };
 		E981EC9A272833CE00282702 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E981EC99272833CE00282702 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -258,7 +256,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E900435627283266003AD6A7 /* Pacifico-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +263,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E900435727283266003AD6A7 /* Pacifico-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,9 +438,11 @@
 				DEVELOPMENT_TEAM = 8Y6GZNH939;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUINewsAPP/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -472,9 +470,11 @@
 				DEVELOPMENT_TEAM = 8Y6GZNH939;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUINewsAPP/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;

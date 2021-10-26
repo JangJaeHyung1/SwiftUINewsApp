@@ -9,26 +9,31 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ZStack{
-            Color(UIColor(red: 0.29, green: 0.56, blue: 0.36, alpha: 1.00))
-                .edgesIgnoringSafeArea(.all)
-            VStack {
-                Text("Hello, world!")
-                    .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
-                    .fontWeight(.bold)
-                    .foregroundColor(Color.white)
-                .padding()
-                Image("iamge")
-            }
-            
+        NavigationView{
+            List(posts, rowContent: { post in
+                Text(post.title)
+            })
+            .navigationTitle("둘러보기")
         }
-        
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
-//        ContentView().previewDevice(PreviewDevice(rawValue: "iPhone SE (2nd generation)"))
+//            .previewLayout(.sizeThatFits)
+        //        ContentView().previewDevice(PreviewDevice(rawValue: "iPhone SE (2nd generation)"))
     }
 }
+
+
+struct Post: Identifiable{
+    let id: String
+    let title: String
+}
+
+let posts = [
+    Post(id: "1", title: "반가워요"),
+    Post(id: "2", title: "Hello"),
+    Post(id: "3", title: "Ohayo")
+]
