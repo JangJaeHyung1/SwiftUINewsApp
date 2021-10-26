@@ -17,6 +17,10 @@ class SwiftUINewsAPPTests: XCTestCase {
     override func tearDownWithError() throws {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
+    
+    func testAPIKey() throws {
+        RequestAPI.shared.fetchData()
+    }
 
     func testExample() throws {
         // This is an example of a functional test case.

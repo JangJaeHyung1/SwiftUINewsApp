@@ -6,6 +6,7 @@
 //
 
 import XCTest
+import SwiftUINewsAPP
 
 class SwiftUINewsAPPUITests: XCTestCase {
 
