@@ -9,8 +9,20 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ZStack{
+            Color(UIColor(red: 0.29, green: 0.56, blue: 0.36, alpha: 1.00))
+                .edgesIgnoringSafeArea(.all)
+            VStack {
+                Text("Hello, world!")
+                    .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                    .fontWeight(.bold)
+                    .foregroundColor(Color.white)
+                .padding()
+                Image("iamge")
+            }
+            
+        }
+        
     }
 }
 

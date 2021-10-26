@@ -14,6 +14,10 @@
 		E90043392728209F003AD6A7 /* SwiftUINewsAPPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90043382728209F003AD6A7 /* SwiftUINewsAPPTests.swift */; };
 		E90043432728209F003AD6A7 /* SwiftUINewsAPPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90043422728209F003AD6A7 /* SwiftUINewsAPPUITests.swift */; };
 		E90043452728209F003AD6A7 /* SwiftUINewsAPPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90043442728209F003AD6A7 /* SwiftUINewsAPPUITestsLaunchTests.swift */; };
+		E900435527283266003AD6A7 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E900435427283266003AD6A7 /* Pacifico-Regular.ttf */; };
+		E900435627283266003AD6A7 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E900435427283266003AD6A7 /* Pacifico-Regular.ttf */; };
+		E900435727283266003AD6A7 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E900435427283266003AD6A7 /* Pacifico-Regular.ttf */; };
+		E981EC9A272833CE00282702 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E981EC99272833CE00282702 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,8 @@
 		E900433E2728209F003AD6A7 /* SwiftUINewsAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUINewsAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E90043422728209F003AD6A7 /* SwiftUINewsAPPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUINewsAPPUITests.swift; sourceTree = "<group>"; };
 		E90043442728209F003AD6A7 /* SwiftUINewsAPPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUINewsAPPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E900435427283266003AD6A7 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		E981EC99272833CE00282702 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +100,12 @@
 		E90043262728209E003AD6A7 /* SwiftUINewsAPP */ = {
 			isa = PBXGroup;
 			children = (
+				E900435327283242003AD6A7 /* fonts */,
 				E90043272728209E003AD6A7 /* SwiftUINewsAPPApp.swift */,
 				E90043292728209E003AD6A7 /* ContentView.swift */,
 				E900432B2728209F003AD6A7 /* Assets.xcassets */,
 				E900432D2728209F003AD6A7 /* Preview Content */,
+				E981EC99272833CE00282702 /* Launch Screen.storyboard */,
 			);
 			path = SwiftUINewsAPP;
 			sourceTree = "<group>";
@@ -125,6 +133,14 @@
 				E90043442728209F003AD6A7 /* SwiftUINewsAPPUITestsLaunchTests.swift */,
 			);
 			path = SwiftUINewsAPPUITests;
+			sourceTree = "<group>";
+		};
+		E900435327283242003AD6A7 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E900435427283266003AD6A7 /* Pacifico-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +247,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E900435527283266003AD6A7 /* Pacifico-Regular.ttf in Resources */,
 				E900432F2728209F003AD6A7 /* Preview Assets.xcassets in Resources */,
+				E981EC9A272833CE00282702 /* Launch Screen.storyboard in Resources */,
 				E900432C2728209F003AD6A7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +258,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E900435627283266003AD6A7 /* Pacifico-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +266,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E900435727283266003AD6A7 /* Pacifico-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
