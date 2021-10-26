@@ -16,6 +16,7 @@
 		E90043452728209F003AD6A7 /* SwiftUINewsAPPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90043442728209F003AD6A7 /* SwiftUINewsAPPUITestsLaunchTests.swift */; };
 		E900435527283266003AD6A7 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E900435427283266003AD6A7 /* Pacifico-Regular.ttf */; };
 		E981EC9A272833CE00282702 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E981EC99272833CE00282702 /* Launch Screen.storyboard */; };
+		E981ECA2272851E200282702 /* RequestAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E981ECA1272851E200282702 /* RequestAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		E90043442728209F003AD6A7 /* SwiftUINewsAPPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUINewsAPPUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E900435427283266003AD6A7 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
 		E981EC99272833CE00282702 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		E981ECA1272851E200282702 /* RequestAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestAPI.swift; sourceTree = "<group>"; };
+		E981ECA3272856BD00282702 /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +81,7 @@
 		E900431B2728209E003AD6A7 = {
 			isa = PBXGroup;
 			children = (
+				E981ECA3272856BD00282702 /* Secrets.xcconfig */,
 				E90043262728209E003AD6A7 /* SwiftUINewsAPP */,
 				E90043372728209F003AD6A7 /* SwiftUINewsAPPTests */,
 				E90043412728209F003AD6A7 /* SwiftUINewsAPPUITests */,
@@ -98,6 +102,7 @@
 		E90043262728209E003AD6A7 /* SwiftUINewsAPP */ = {
 			isa = PBXGroup;
 			children = (
+				E981ECA0272851B900282702 /* Models */,
 				E900435327283242003AD6A7 /* fonts */,
 				E90043272728209E003AD6A7 /* SwiftUINewsAPPApp.swift */,
 				E90043292728209E003AD6A7 /* ContentView.swift */,
@@ -139,6 +144,14 @@
 				E900435427283266003AD6A7 /* Pacifico-Regular.ttf */,
 			);
 			path = fonts;
+			sourceTree = "<group>";
+		};
+		E981ECA0272851B900282702 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E981ECA1272851E200282702 /* RequestAPI.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E900432A2728209E003AD6A7 /* ContentView.swift in Sources */,
+				E981ECA2272851E200282702 /* RequestAPI.swift in Sources */,
 				E90043282728209E003AD6A7 /* SwiftUINewsAPPApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,6 +443,7 @@
 		};
 		E90043492728209F003AD6A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E981ECA3272856BD00282702 /* Secrets.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -461,6 +476,7 @@
 		};
 		E900434A2728209F003AD6A7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E981ECA3272856BD00282702 /* Secrets.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
