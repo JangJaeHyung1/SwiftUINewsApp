@@ -15,6 +15,7 @@
 		E90043432728209F003AD6A7 /* SwiftUINewsAPPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90043422728209F003AD6A7 /* SwiftUINewsAPPUITests.swift */; };
 		E90043452728209F003AD6A7 /* SwiftUINewsAPPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90043442728209F003AD6A7 /* SwiftUINewsAPPUITestsLaunchTests.swift */; };
 		E900435527283266003AD6A7 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E900435427283266003AD6A7 /* Pacifico-Regular.ttf */; };
+		E908E32F27299BAD0081CB21 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E908E32E27299BAD0081CB21 /* DataModel.swift */; };
 		E981EC9A272833CE00282702 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E981EC99272833CE00282702 /* Launch Screen.storyboard */; };
 		E981ECA2272851E200282702 /* RequestAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E981ECA1272851E200282702 /* RequestAPI.swift */; };
 /* End PBXBuildFile section */
@@ -48,6 +49,7 @@
 		E90043422728209F003AD6A7 /* SwiftUINewsAPPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUINewsAPPUITests.swift; sourceTree = "<group>"; };
 		E90043442728209F003AD6A7 /* SwiftUINewsAPPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUINewsAPPUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E900435427283266003AD6A7 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		E908E32E27299BAD0081CB21 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		E981EC99272833CE00282702 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		E981ECA1272851E200282702 /* RequestAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestAPI.swift; sourceTree = "<group>"; };
 		E981ECA3272856BD00282702 /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				E981ECA1272851E200282702 /* RequestAPI.swift */,
+				E908E32E27299BAD0081CB21 /* DataModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E900432A2728209E003AD6A7 /* ContentView.swift in Sources */,
+				E908E32F27299BAD0081CB21 /* DataModel.swift in Sources */,
 				E981ECA2272851E200282702 /* RequestAPI.swift in Sources */,
 				E90043282728209E003AD6A7 /* SwiftUINewsAPPApp.swift in Sources */,
 			);
