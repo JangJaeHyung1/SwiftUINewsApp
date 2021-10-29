@@ -8,16 +8,16 @@
 import Foundation
 
 
-class RequestAPI {
+class RequestAPI: ObservableObject {
     static let shared = RequestAPI()
     private init() { }
+    @Published var posts = [Article]()
     
     private let apiKey = Bundle.main.object(forInfoDictionaryKey: "API_KEY") as? String
     
-    func fetchData(completion: @escaping (_ data: Results?) -> Void){
+    func fetchData(){
         
         guard let apiKey = apiKey else { return }
-        //        print("test: api Key는 \(apiKey) 입니다.")
         
         guard let url = URL(string: "https://newsapi.org/v2/top-headlines?country=kr&apiKey=\(apiKey)") else{
             return
@@ -31,7 +31,7 @@ class RequestAPI {
                 return
             }
             guard let response = response as? HTTPURLResponse, response.statusCode == 200 else{
-                completion(nil)
+                self.posts = []
                 return
             }
             guard let data = data else{
@@ -39,12 +39,11 @@ class RequestAPI {
             }
             do{
                 let apiResponse = try JSONDecoder().decode(Results.self, from: data)
-                completion(apiResponse)
+                self.posts = apiResponse.articles
             }catch(let err){
                 print(err.localizedDescription)
             }
         }
-        
         task.resume()
     }
 }
