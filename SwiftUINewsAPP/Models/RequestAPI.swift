@@ -22,7 +22,7 @@ class RequestAPI: ObservableObject {
         guard let url = URL(string: "https://newsapi.org/v2/top-headlines?country=kr&apiKey=\(apiKey)") else{
             return
         }
-         
+          
         let session = URLSession(configuration: .default)
         
         let task = session.dataTask(with: url) { data, response, error in
