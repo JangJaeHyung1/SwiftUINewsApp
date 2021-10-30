@@ -22,7 +22,6 @@ class RequestAPI: ObservableObject {
         guard let url = URL(string: "https://newsapi.org/v2/top-headlines?country=kr&apiKey=\(apiKey)") else{
             return
         }
-          
         let session = URLSession(configuration: .default)
         
         let task = session.dataTask(with: url) { data, response, error in
@@ -39,7 +38,9 @@ class RequestAPI: ObservableObject {
             }
             do{
                 let apiResponse = try JSONDecoder().decode(Results.self, from: data)
-                self.posts = apiResponse.articles
+                DispatchQueue.main.async {
+                    self.posts = apiResponse.articles
+                }
             }catch(let err){
                 print(err.localizedDescription)
             }
