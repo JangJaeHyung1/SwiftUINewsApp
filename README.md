@@ -8,7 +8,7 @@
 
 - api key는 config에 저장,gitignore에 등록하여 git에 업로드 되지 않도록 하였습니다. ( https://ggasoon2.tistory.com/18 정리한글)
 
-- State와 Observable, Published를 활용하여 fetch 한 뉴스 data를 SwiftUI List에 binding 해주었습니다. ( https://ggasoon2.tistory.com/9 정리한글)
+- State와 Observable, Published를 활용하여 fetch 한 뉴스 data를 SwiftUI List에 binding 해주었습니다. ( https://ggasoon2.tistory.com/9 )
 
 시현 이미지  
 
