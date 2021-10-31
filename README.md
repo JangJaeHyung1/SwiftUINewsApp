@@ -1,7 +1,6 @@
 # SwiftUINewsApp
-news api를 가져와서 스유에 뿌려주기
 
-## SwiftUI의 바인딩 특성을 이용하여 Fetch 해온 news data를 List에 뿌려주기
+## SwiftUI의 바인딩 특성을 이용하여 Fetch 해온 뉴스 data를 List에 뿌려주기
 
 기존 Swift에는 없는 SwiftUI만의 바인딩 특성을 사용하여 데이터를 뿌려보겠습니다.
 
