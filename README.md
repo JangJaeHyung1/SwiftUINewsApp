@@ -6,7 +6,7 @@
 
 - https://newsapi.org/ 의 뉴스 api로 작업하였습니다.
 
-- api key는 config에 저장,gitignore에 등록하여 git에 업로드 되지 않습니다 (gitignore 관련 - https://ggasoon2.tistory.com/18)
+- api key는 gitignore처리되어 git에 업로드 되지 않습니다. newsapi에서 따로 받아주세요. (gitignore 관련 - https://ggasoon2.tistory.com/18)
 
 - State와 Observable, Published를 활용하여 fetch 한 뉴스 data를 SwiftUI List에 binding 해주었습니다. ( https://ggasoon2.tistory.com/9 )
 
